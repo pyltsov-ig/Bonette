@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CD152A257F905600D4A645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1529257F905600D4A645 /* AppDelegate.swift */; };
+		78CD152C257F905600D4A645 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD152B257F905600D4A645 /* SceneDelegate.swift */; };
+		78CD152E257F905600D4A645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD152D257F905600D4A645 /* ViewController.swift */; };
+		78CD1531257F905600D4A645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CD152F257F905600D4A645 /* Main.storyboard */; };
+		78CD1533257F905900D4A645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CD1532257F905900D4A645 /* Assets.xcassets */; };
+		78CD1536257F905900D4A645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CD1534257F905900D4A645 /* LaunchScreen.storyboard */; };
+		78CD1541257F905900D4A645 /* BonetteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD1540257F905900D4A645 /* BonetteTests.swift */; };
+		78CD154C257F905900D4A645 /* BonetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD154B257F905900D4A645 /* BonetteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78CD153D257F905900D4A645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD151E257F905600D4A645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78CD1525257F905600D4A645;
+			remoteInfo = Bonette;
+		};
+		78CD1548257F905900D4A645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78CD151E257F905600D4A645 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78CD1525257F905600D4A645;
+			remoteInfo = Bonette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78CD1526257F905600D4A645 /* Bonette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CD1529257F905600D4A645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78CD152B257F905600D4A645 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78CD152D257F905600D4A645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78CD1530257F905600D4A645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78CD1532257F905900D4A645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78CD1535257F905900D4A645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78CD1537257F905900D4A645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CD153C257F905900D4A645 /* BonetteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonetteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CD1540257F905900D4A645 /* BonetteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonetteTests.swift; sourceTree = "<group>"; };
+		78CD1542257F905900D4A645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CD1547257F905900D4A645 /* BonetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CD154B257F905900D4A645 /* BonetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonetteUITests.swift; sourceTree = "<group>"; };
+		78CD154D257F905900D4A645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78CD1523257F905600D4A645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD1539257F905900D4A645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD1544257F905900D4A645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78CD151D257F905500D4A645 = {
+			isa = PBXGroup;
+			children = (
+				78CD1528257F905600D4A645 /* Bonette */,
+				78CD153F257F905900D4A645 /* BonetteTests */,
+				78CD154A257F905900D4A645 /* BonetteUITests */,
+				78CD1527257F905600D4A645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78CD1527257F905600D4A645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78CD1526257F905600D4A645 /* Bonette.app */,
+				78CD153C257F905900D4A645 /* BonetteTests.xctest */,
+				78CD1547257F905900D4A645 /* BonetteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78CD1528257F905600D4A645 /* Bonette */ = {
+			isa = PBXGroup;
+			children = (
+				78CD1529257F905600D4A645 /* AppDelegate.swift */,
+				78CD152B257F905600D4A645 /* SceneDelegate.swift */,
+				78CD152D257F905600D4A645 /* ViewController.swift */,
+				78CD152F257F905600D4A645 /* Main.storyboard */,
+				78CD1532257F905900D4A645 /* Assets.xcassets */,
+				78CD1534257F905900D4A645 /* LaunchScreen.storyboard */,
+				78CD1537257F905900D4A645 /* Info.plist */,
+			);
+			path = Bonette;
+			sourceTree = "<group>";
+		};
+		78CD153F257F905900D4A645 /* BonetteTests */ = {
+			isa = PBXGroup;
+			children = (
+				78CD1540257F905900D4A645 /* BonetteTests.swift */,
+				78CD1542257F905900D4A645 /* Info.plist */,
+			);
+			path = BonetteTests;
+			sourceTree = "<group>";
+		};
+		78CD154A257F905900D4A645 /* BonetteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78CD154B257F905900D4A645 /* BonetteUITests.swift */,
+				78CD154D257F905900D4A645 /* Info.plist */,
+			);
+			path = BonetteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78CD1525257F905600D4A645 /* Bonette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CD1550257F905900D4A645 /* Build configuration list for PBXNativeTarget "Bonette" */;
+			buildPhases = (
+				78CD1522257F905600D4A645 /* Sources */,
+				78CD1523257F905600D4A645 /* Frameworks */,
+				78CD1524257F905600D4A645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonette;
+			productName = Bonette;
+			productReference = 78CD1526257F905600D4A645 /* Bonette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78CD153B257F905900D4A645 /* BonetteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CD1553257F905900D4A645 /* Build configuration list for PBXNativeTarget "BonetteTests" */;
+			buildPhases = (
+				78CD1538257F905900D4A645 /* Sources */,
+				78CD1539257F905900D4A645 /* Frameworks */,
+				78CD153A257F905900D4A645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78CD153E257F905900D4A645 /* PBXTargetDependency */,
+			);
+			name = BonetteTests;
+			productName = BonetteTests;
+			productReference = 78CD153C257F905900D4A645 /* BonetteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78CD1546257F905900D4A645 /* BonetteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CD1556257F905900D4A645 /* Build configuration list for PBXNativeTarget "BonetteUITests" */;
+			buildPhases = (
+				78CD1543257F905900D4A645 /* Sources */,
+				78CD1544257F905900D4A645 /* Frameworks */,
+				78CD1545257F905900D4A645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78CD1549257F905900D4A645 /* PBXTargetDependency */,
+			);
+			name = BonetteUITests;
+			productName = BonetteUITests;
+			productReference = 78CD1547257F905900D4A645 /* BonetteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CD151E257F905600D4A645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					78CD1525257F905600D4A645 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					78CD153B257F905900D4A645 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 78CD1525257F905600D4A645;
+					};
+					78CD1546257F905900D4A645 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 78CD1525257F905600D4A645;
+					};
+				};
+			};
+			buildConfigurationList = 78CD1521257F905600D4A645 /* Build configuration list for PBXProject "Bonette" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78CD151D257F905500D4A645;
+			productRefGroup = 78CD1527257F905600D4A645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78CD1525257F905600D4A645 /* Bonette */,
+				78CD153B257F905900D4A645 /* BonetteTests */,
+				78CD1546257F905900D4A645 /* BonetteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78CD1524257F905600D4A645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD1536257F905900D4A645 /* LaunchScreen.storyboard in Resources */,
+				78CD1533257F905900D4A645 /* Assets.xcassets in Resources */,
+				78CD1531257F905600D4A645 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD153A257F905900D4A645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD1545257F905900D4A645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78CD1522257F905600D4A645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD152E257F905600D4A645 /* ViewController.swift in Sources */,
+				78CD152A257F905600D4A645 /* AppDelegate.swift in Sources */,
+				78CD152C257F905600D4A645 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD1538257F905900D4A645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD1541257F905900D4A645 /* BonetteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78CD1543257F905900D4A645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CD154C257F905900D4A645 /* BonetteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78CD153E257F905900D4A645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78CD1525257F905600D4A645 /* Bonette */;
+			targetProxy = 78CD153D257F905900D4A645 /* PBXContainerItemProxy */;
+		};
+		78CD1549257F905900D4A645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78CD1525257F905600D4A645 /* Bonette */;
+			targetProxy = 78CD1548257F905900D4A645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78CD152F257F905600D4A645 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CD1530257F905600D4A645 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78CD1534257F905900D4A645 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CD1535257F905900D4A645 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78CD154E257F905900D4A645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78CD154F257F905900D4A645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78CD1551257F905900D4A645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = Bonette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Bonette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78CD1552257F905900D4A645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = Bonette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.Bonette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78CD1554257F905900D4A645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = BonetteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.BonetteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonette.app/Bonette";
+			};
+			name = Debug;
+		};
+		78CD1555257F905900D4A645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = BonetteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.BonetteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bonette.app/Bonette";
+			};
+			name = Release;
+		};
+		78CD1557257F905900D4A645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = BonetteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.BonetteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonette;
+			};
+			name = Debug;
+		};
+		78CD1558257F905900D4A645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7G4QKU6FCL;
+				INFOPLIST_FILE = BonetteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.BonetteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bonette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78CD1521257F905600D4A645 /* Build configuration list for PBXProject "Bonette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CD154E257F905900D4A645 /* Debug */,
+				78CD154F257F905900D4A645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CD1550257F905900D4A645 /* Build configuration list for PBXNativeTarget "Bonette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CD1551257F905900D4A645 /* Debug */,
+				78CD1552257F905900D4A645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CD1553257F905900D4A645 /* Build configuration list for PBXNativeTarget "BonetteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CD1554257F905900D4A645 /* Debug */,
+				78CD1555257F905900D4A645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CD1556257F905900D4A645 /* Build configuration list for PBXNativeTarget "BonetteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CD1557257F905900D4A645 /* Debug */,
+				78CD1558257F905900D4A645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CD151E257F905600D4A645 /* Project object */;
+}
