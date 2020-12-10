@@ -85,6 +85,7 @@
 				78CD1527257F905600D4A645 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		78CD1527257F905600D4A645 /* Products */ = {
 			isa = PBXGroup;
