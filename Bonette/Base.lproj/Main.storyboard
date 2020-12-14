@@ -15,70 +15,9 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K7O-tI-rZB">
-                                <rect key="frame" x="94" y="399.66666666666674" width="240" height="127"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="127" id="1Of-rq-h8R"/>
-                                </constraints>
-                            </view>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="2RW-56-Fbb">
-                                <rect key="frame" x="61" y="691" width="306" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="mySliderMove:" destination="BYZ-38-t0r" eventType="valueChanged" id="jSw-Fa-Hge"/>
-                                </connections>
-                            </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJK-Fs-3Vy">
-                                <rect key="frame" x="125" y="603" width="179" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="КНОПОЧКА">
-                                            <attributes>
-                                                <font key="NSFont" metaFont="system" size="32"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="myButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8pw-ON-V1Z"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keb-Um-CuR">
-                                <rect key="frame" x="94" y="64" width="240" height="128"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="SlX-gs-Eeg"/>
-                                    <constraint firstAttribute="height" constant="128" id="WGD-09-4fq"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml1-lQ-gyh">
-                                <rect key="frame" x="141" y="274" width="146" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="keb-Um-CuR" secondAttribute="trailing" constant="94" id="3TH-Lz-SOj"/>
-                            <constraint firstItem="keb-Um-CuR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bSi-5P-3f0"/>
-                            <constraint firstItem="keb-Um-CuR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="dVu-nQ-jlG"/>
-                            <constraint firstItem="K7O-tI-rZB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="rbV-os-2Hh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K7O-tI-rZB" secondAttribute="trailing" constant="94" id="zlX-a6-xuP"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="myBlueView" destination="K7O-tI-rZB" id="zeE-ic-dPf"/>
-                        <outlet property="myButton" destination="WJK-Fs-3Vy" id="7s7-8Z-J9Q"/>
-                        <outlet property="myLabel" destination="ml1-lQ-gyh" id="OJo-da-muU"/>
-                        <outlet property="mySlider" destination="2RW-56-Fbb" id="21B-OE-9FI"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,12 +27,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
